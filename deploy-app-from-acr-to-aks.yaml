@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-hello-world
-        image: vipinacr123.azurecr.io/vipinacr123:latest
+        image: myacrrepo856.azurecr.io/myacrrepo856:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
